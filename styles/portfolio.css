@@ -1,0 +1,19 @@
+h2 {
+  font-family: "Poppins", sans-serif;
+  size: 36px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: "Playfair Display SC", serif;
+  size: 96px;
+  text-align: center;
+  background-color: pink;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  size: 24px;
+  text-align: center;
+  font-weight: lighter;
+}
