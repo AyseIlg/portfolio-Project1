@@ -1,3 +1,7 @@
+:root {
+  --branding-color: rgb(233, 199, 204);
+  --secondary-color: rgb(144, 109, 137);
+}
 h2 {
   font-family: "Poppins", sans-serif;
   size: 36px;
@@ -17,7 +21,7 @@ p {
 }
 
 .hero {
-  background-color: rgb(233, 199, 204);
+  background-color: var(--branding-color);
   padding: 160px 20px;
 }
 
@@ -27,8 +31,7 @@ p {
 .contact-btn {
   display: block;
   margin: auto;
-  background-color: rgb(228, 170, 178);
-  border-radius: 4px;
+  background-color: var(--secondary-color);
   color: white;
   line-height: 27px;
   padding: 15px 30px;
