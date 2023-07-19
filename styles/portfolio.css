@@ -72,6 +72,7 @@ h2 {
     text-align: center;
   }
 }
+
 .content-container {
   padding: 160px 20px;
 }
@@ -88,6 +89,13 @@ h2 {
 }
 .content-container h2 {
   font-family: "Poppins", sans-serif;
+}
+.content-container h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2;
+  margin: 10px 0 0 0;
 }
 .content,
 .about-img-section {
