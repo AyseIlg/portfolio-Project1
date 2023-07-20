@@ -29,11 +29,35 @@
     <title>Projects</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="homepage">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="shecodes logo"
+          />
+          <img
+            src="/images/logo-small.jpeg"
+            class="small-logo d-block d-md-none"
+            alt="small shecodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="homepage"> Home</a>
+          </li>
+          <li><a href="/about.html" title="About page"> About</a></li>
+          <li class="active">
+            <a href="/work.html" title="work page"> Work</a>
+          </li>
+          <li><a href="/contact.html" title="contact page"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
-        <h1 class="mt-5 text-center">
-          Take a loook what I've been working on!
-        </h1>
+        <h1 class="text-center">Take a loook what I've been working on!</h1>
         <div class="row">
           <div class="col-md-6">
             <img
@@ -78,5 +102,37 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="m-5">
+        <div class="contact-box d-flex justify-content-between">
+          <div>
+            <h3 class="text-start">Work Inquiry</h3>
+            <p class="text-muted text-start">
+              Let's work together and I'll help you by all my best
+            </p>
+          </div>
+          <div>
+            <a href="" class="btn-talk" title="let's talk button"
+              >Let's talk here</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:aysenur.ilgezdi@gmail.com"
+            class="email-link"
+            title="email"
+            >aysenur.ilgezdi@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="" title="github"> <i class="fa-brands fa-github"></i></a>
+          <a href="" title="linkedin"><i class="fa-brands fa-linkedin"></i></a
+          ><a href="" title="instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
