@@ -101,3 +101,29 @@ h2 {
 .about-img-section {
   margin: 30px;
 }
+
+#contact-title {
+  font-weight: 500;
+  line-height: 3;
+  margin: 200px 100px 30px 80px;
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+}
+
+.hero-contact {
+  background-color: var(--branding-color);
+  padding: 80px 20px;
+}
+.hero-contact h1 {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+}
+.btn-talk {
+  display: block;
+  margin: 20px 100px 5px 100px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: white;
+  line-height: 27px;
+  padding: 15px 30px;
+}
