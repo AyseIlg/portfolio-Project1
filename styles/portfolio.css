@@ -8,6 +8,36 @@
   size: 36px;
   text-align: center;
 }
+.logo {
+  max-height: 45px;
+}
+.small-logo {
+  max-height: 45px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin-left: 15px;
+}
+nav a {
+  color: rgba(39, 33, 66, 0.7);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover,
+nav li.active a {
+  color: rgba(108, 99, 255, 1);
+}
 
 h1 {
   font-family: "Playfair Display", serif;
@@ -70,6 +100,9 @@ h2 {
   }
   .content {
     text-align: center;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
 
