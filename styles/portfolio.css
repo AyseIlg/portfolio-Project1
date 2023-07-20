@@ -65,6 +65,15 @@ h3 {
 .hero-minor {
   margin: 30px;
 }
+.contact-btn {
+  display: block;
+  margin: auto;
+  background-color: var(--secondary-color);
+  color: white;
+  border: white;
+  line-height: 27px;
+  padding: 15px 30px;
+}
 
 #btn-projects {
   background-color: var(--secondary-color);
