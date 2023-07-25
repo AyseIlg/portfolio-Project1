@@ -205,3 +205,8 @@ footer .social-links a:hover {
   line-height: 27px;
   padding: 15px 30px;
 }
+@media (max-width: 768px) {
+  .btn-talk {
+    margin: 0;
+  }
+}
